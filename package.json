@@ -1,0 +1,23 @@
+{
+  "name": "snakejs",
+  "version": "1.0.4",
+  "description": "A terminal-based Snake implementation written in JavaScript (Node.js) 🐍",
+  "author": "Ajay Thakur",
+  "main": "index.js",
+  "bin": {
+    "snake": "./play.js"
+  },
+  "scripts": {
+    "play": "node play.js"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81"
+  },
+  "licence": "MIT",
+  "keywords": [
+    "snake",
+    "javascript",
+    "node"
+  ],
+  "private": false
+}
